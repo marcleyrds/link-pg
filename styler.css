@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+body{
+    margin-top: 100px;
+    padding: 0;
+    background-color: blueviolet;
+    color: rgb(19, 18, 18);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    font-family:'kanit', sons-serif s;  
+}
+header{
+    width: 95%;
+    max-width: 788px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+.share-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+.share-button svg{
+    color: rgb(153, 83, 83);
+    margin-left:5px ;
+    margin-top: 4px;
+}
+.container{
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.tile{
+    width: 100%;
+    background-color: rgb(65, 61, 61);
+    margin: 7px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.tile:hover{
+    background-color: rgb(25, 25, 32);
+    transition: cubic-bezier(.07,1.41, .82, 141);
+    transform: scale(1.02);
+}
+
+.tile-share-button{
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: blueviolet;
+}
+.tile-share-button svg {
+    margin-left: 7px;
+    margin-top: 5px; 
+    
+
+}
+
+
+.imege-container{
+    height: 96px;
+    width: 96px;
+    border-radius: 48px;
+    overflow: hidden;
+}
+.imege-container img{
+    height: 100%;
+}
+.icon{
+    margin: 4px 8px;
+    width: 44px;
+    height: 44px;
+}
